@@ -1,0 +1,133 @@
+public class A {
+	
+	public static void main(String[] args) 
+
+	{
+	
+		int [] a = {10,20,30,40};
+		System.out.println(a[0]);
+		System.out.println(a[1]);
+		System.out.println(a[2]);
+		System.out.println(a[3]);
+		
+		
+		for (int i=0; i<=a.length; i++) 
+		{
+			System.out.println(a[i]);
+		}
+		
+		// for each loop
+		for (int aa:a) 
+		{
+			System.out.println(aa);
+		}
+	}
+ 
+}
+================================================
+package first;
+
+public class ArrayA {
+	
+	public static void main(String[] args) {
+		
+// instantiation
+		int[] a = new int[5];
+		
+//		Initialization	of array.	
+		a[0]=10;
+		a[1] =20;
+		
+		for(int aa: a) {
+			System.out.println(aa);
+		}
+		
+		boolean[] b = new boolean[3];
+		for (boolean bb: b) {
+			System.out.println(bb);
+		}
+		
+		
+		A[] A1 = new A[3];
+		 for (A AA: A1) {
+			 System.out.println(AA);
+		 }
+	}
+
+}
+===================================================
+Syntax
+
+datatype arryname[] = new datatype[size];
+int i[] = new int[3];
+
+==============
+Declaration
+int[] a,b; = a & b both array
+int a[],b; = a array & b integer
+
+==================
+Creation
+
+a = new int[3];
+
+=========
+declare & creation
+ int[] a= new int[3];
+ 
+ =======================
+ Initialization of array
+ 
+ a[0] =10;
+ 
+ ======================
+ Declaration, creation & initialization
+ a) int[] a= {10,20,30};
+ 
+ b) int[] a = new int[3]{10,20,30};
+ 
+ 
+ =====================
+ 
+ For each loop
+ 
+ for (datatype reference variable: array/collection)
+ 
+ ======================
+ for (Index value initialization; expression; increment)
+ 
+ 
+ ========================================
+ 
+Two Dimentional array
+
+Declaration
+int[][] a;
+ 
+==================
+Creation (Matrix array)
+a= new int[2][3]; 
+
+
+Creation (Jagged Array)
+a = new int[2][];
+a[0] = new int[3];
+a[1] = new int[2];
+
+======================================
+Initialization
+
+a[0][0]=10;
+a[0][1]=20;
+
+======================================
+
+Declaration, creation & initialization
+int[][] a = new int[2][3];
+
+int[][] a= {{10,20,30},{20,30,40}};
+
+
+
+
+
