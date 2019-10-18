@@ -9,5 +9,7 @@
 	<classpathentry kind="lib" path="E:/SEL/Selenium_Java/libs/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="E:/SEL/Selenium_Java/libs/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="E:/SEL/Selenium_Java/libs/okio-1.14.0.jar"/>
+	<classpathentry kind="lib" path="E:/SEL/log4j/apache-log4j-2.12.1-bin/log4j-api-2.12.1.jar"/>
+	<classpathentry kind="lib" path="E:/SEL/log4j/apache-log4j-2.12.1-bin/log4j-core-2.12.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

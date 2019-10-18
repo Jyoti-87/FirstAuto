@@ -26,25 +26,25 @@ public class JaggedArray {
 		
 		System.out.println(a.length);
 		System.out.println(b.length);
-//		
-//		System.out.println(a[0]);
-//		System.out.println(b[0]);
-//		
-//		System.out.println(a[0][2]);
-//		System.out.println(b[2][1]);
+		
+		System.out.println(a[0]);
+		System.out.println(b[0]);
+		
+		System.out.println(a[0][2]);
+		System.out.println(b[2][1]);
 		
 		System.out.println(a[1].length);
 		System.out.println(b[2].length);
 		
 		
-//		for (int i=0; i<a.length; i++)
-//		{
-//			for (int j=0; j<a[i].length; j++)
-//			{
-//			System.out.println(a[i][j] + "");	
-//			}
-//			System.out.println();
-//		}
+		for (int i=0; i<a.length; i++)
+		{
+			for (int j=0; j<a[i].length; j++)
+			{
+			System.out.println(a[i][j] + "");	
+			}
+			System.out.println();
+		}
 			
 	}
 
